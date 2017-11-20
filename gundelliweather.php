@@ -193,44 +193,44 @@ class Gundelli_Weather extends WP_Widget {
 
              '<tr>' .
              '<td>' . date("D", floatval($forecast_data['forecast']['forecastday']['0']['date_epoch'])) . '</td>'.
-             '<td>' . round($forecast_data['forecast']['forecastday']['0']['day']['maxtemp_f']) . '°' . '</td>' .
              '<td>' . round($forecast_data['forecast']['forecastday']['0']['day']['mintemp_f']) . '°' . '</td>' .
+             '<td>' . round($forecast_data['forecast']['forecastday']['0']['day']['maxtemp_f']) . '°' . '</td>' .
              '</tr>' .
 
 		     '<tr>' .
 		     '<td>' . date("D", floatval($forecast_data['forecast']['forecastday']['1']['date_epoch'])) . '</td>'.
-		     '<td>' . round($forecast_data['forecast']['forecastday']['1']['day']['maxtemp_f']) . '°' . '</td>' .
 		     '<td>' . round($forecast_data['forecast']['forecastday']['1']['day']['mintemp_f']) . '°' . '</td>' .
+		     '<td>' . round($forecast_data['forecast']['forecastday']['1']['day']['maxtemp_f']) . '°' . '</td>' .
 		     '</tr>' .
 
 		     '<tr>' .
 		     '<td>' . date("D", floatval($forecast_data['forecast']['forecastday']['2']['date_epoch'])) . '</td>'.
-		     '<td>' . round($forecast_data['forecast']['forecastday']['2']['day']['maxtemp_f']) . '°' . '</td>' .
 		     '<td>' . round($forecast_data['forecast']['forecastday']['2']['day']['mintemp_f']) . '°' . '</td>' .
+		     '<td>' . round($forecast_data['forecast']['forecastday']['2']['day']['maxtemp_f']) . '°' . '</td>' .
 		     '</tr>' .
 
 		     '<tr>' .
 		     '<td>' . date("D", floatval($forecast_data['forecast']['forecastday']['3']['date_epoch'])) . '</td>'.
-		     '<td>' . round($forecast_data['forecast']['forecastday']['3']['day']['maxtemp_f']) . '°' . '</td>' .
 		     '<td>' . round($forecast_data['forecast']['forecastday']['3']['day']['mintemp_f']) . '°' . '</td>' .
+		     '<td>' . round($forecast_data['forecast']['forecastday']['3']['day']['maxtemp_f']) . '°' . '</td>' .
 		     '</tr>' .
 
 		     '<tr>' .
 		     '<td>' . date("D", floatval($forecast_data['forecast']['forecastday']['4']['date_epoch'])) . '</td>'.
-		     '<td>' . round($forecast_data['forecast']['forecastday']['4']['day']['maxtemp_f']) . '°' . '</td>' .
 		     '<td>' . round($forecast_data['forecast']['forecastday']['4']['day']['mintemp_f']) . '°' . '</td>' .
+		     '<td>' . round($forecast_data['forecast']['forecastday']['4']['day']['maxtemp_f']) . '°' . '</td>' .
 		     '</tr>' .
 
 		     '<tr>' .
 		     '<td>' . date("D", floatval($forecast_data['forecast']['forecastday']['5']['date_epoch'])) . '</td>'.
-		     '<td>' . round($forecast_data['forecast']['forecastday']['5']['day']['maxtemp_f']) . '°' . '</td>' .
 		     '<td>' . round($forecast_data['forecast']['forecastday']['5']['day']['mintemp_f']) . '°' . '</td>' .
+		     '<td>' . round($forecast_data['forecast']['forecastday']['5']['day']['maxtemp_f']) . '°' . '</td>' .
 		     '</tr>' .
 
 		     '<tr>' .
 		     '<td>' . date("D", floatval($forecast_data['forecast']['forecastday']['6']['date_epoch'])) . '</td>'.
-		     '<td>' . round($forecast_data['forecast']['forecastday']['6']['day']['maxtemp_f']) . '°' . '</td>' .
 		     '<td>' . round($forecast_data['forecast']['forecastday']['6']['day']['mintemp_f']) . '°' . '</td>' .
+		     '<td>' . round($forecast_data['forecast']['forecastday']['6']['day']['maxtemp_f']) . '°' . '</td>' .
 		     '</tr>' .
 
 		     '</table>';
